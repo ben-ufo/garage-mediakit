@@ -1,0 +1,380 @@
+
+
+@font-face {
+  font-family: 'ApercuPro-Regular';
+  src: url('ApercuPro-Regular.eot?#iefix') format('embedded-opentype'),  url('ApercuPro-Regular.woff') format('woff'), url('ApercuPro-Regular.ttf')  format('truetype'), url('ApercuPro-Regular.svg#ApercuPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.main-header {
+ background-color: black;
+    background: url("/images/knight-intro.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.frame{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.logo {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    background: gray;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+	background-color: #f1f1f1;
+	font-family: 'ApercuPro-Regular';
+}
+
+.watermark {
+        position: fixed;
+        padding-left: 3.5%;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+}
+
+@media only screen and (max-width: 770px) {
+    .watermark {display:none;}
+    }
+
+
+img {
+	max-width: 100%;
+}
+
+/*typography*/
+
+h1 {
+	font-size: 50px;
+	margin: 0px;
+	margin-bottom: 1.5rem;
+        line-height: 3rem;
+}
+
+h2 {
+	font-size: 3rem;
+	margin: 0px;
+	margin-bottom: 1.5rem;
+        line-height: 3rem;
+        text-transform: uppercase;
+}
+
+@media only screen and (max-width: 770px) {
+    h2 { font-size: 2rem;
+        line-height: 2rem;}
+    }
+
+h3     {
+        font-size: 1.4rem;
+	margin: 0px;
+        text-decoration: underline;
+	margin-bottom: 1.5rem;
+        line-height: 3rem;
+}
+
+.head1-white {
+	font-size: 50px;
+	margin: 0px;
+	color: #ffffff;
+	margin-bottom: 1.5rem;
+        line-height: 3rem;
+}
+
+h3-white {
+        font-size: 1.4rem;
+	margin: 0px;
+	color: #ffffff;
+        text-decoration: underline;
+	margin-bottom: 1.5rem;
+        line-height: 3rem;
+        padding-bottom: 30px;
+}
+
+p {
+	margin: 0px;
+	font-size: 0.9rem;
+}
+
+.para-white {
+	margin: 0px;
+        font-size: 0.9rem;
+	color: #ffffff;
+}
+
+
+.above {
+	z-index: 100;
+	max-width: 100%;
+}
+
+.garage-logo-black {
+	max-width: 90px;
+}
+
+.raised-right-grid {
+	margin-top: -100px;
+	z-index: 10;
+
+}
+
+@media (max-width: 770px) {
+   .raised-right-grid {margin-top: 0px;}
+}
+
+
+/*Cover*/
+
+
+
+/*welcome*/
+
+.welcome {
+padding: 70px 0px;
+background-color: #f9f9f9;
+}
+
+.welcome img {
+        padding-top: 70px;
+}
+
+
+/*access*/
+
+.access {
+padding: 70px 0px;
+background-color: #f9f9f9;
+}
+
+
+.beyonce1 {
+        margin-top: -100px;
+}
+@media only screen and (max-width: 770px) {
+    .beyonce1 { margin-top: 20px;}
+    }
+
+
+/*Innovation  & Creativity*/
+.innovation-creativity {
+padding: 70px 0px;
+background-color: #f9f9f9;
+}
+
+.innovation-text-block{
+        margin-top: 100px;
+}
+
+.innovation2 {
+        margin-top: -100px;
+}
+
+
+/*insight*/
+
+.insight {
+padding: 70px 0px;
+background-color: #f9f9f9;
+}
+
+.insight1 {
+        padding-bottom: 100px;
+}
+
+.insight2 {
+        margin-top: -160px;
+}
+
+.insight3 {
+        padding-top: 100px;
+}
+
+.insight3 {
+        padding-top: 100px;
+}
+
+.insight4 {
+        padding-top: 90px;
+        max-width: 300px;
+}
+
+.luxury {
+	background-color: #202020;
+        padding: 70px 0px;
+        display: none;
+}
+
+.luxury-back {
+        margin-top: 370px;
+        display: none;
+}
+
+.luxury3 {
+        margin-top: 25%;
+}
+
+.luxury1 {
+        margin-top: 35%;
+}
+
+
+
+/*Peerless Imagery*/
+.peerless-imagery {
+background-color: #202020;
+padding: 70px 0px;
+}
+
+
+.peerless3 {
+        margin-top: -80%;
+}
+
+.peerless4 {
+        margin-top: 25%;
+}
+
+.peerless2 {
+        margin-top: -25%;
+}
+
+
+.peerless5 {
+        margin-top: 30%;
+}
+
+/*SeamlessAnimated*/
+
+.seamless-animated {
+        background-color: #202020;
+        padding: 70px 0px;
+}
+
+.seamless-video_block-right {
+        margin-top: -30%;
+        margin-left: 15%;
+        margin-right: 5%;
+        width:80%;
+}
+
+.seamless-video_block-left {
+        margin-right: 25%;
+        width:75%;
+
+}
+
+
+/*Award Winning Editorial*/
+
+.award-editorial-intro {
+        background-color: #000000;
+        padding: 70px 0px;
+}
+
+.inked {
+        background-color: #000000;
+        padding: 70px 0px;
+}
+
+.inked-back {
+	float: right;
+	margin-left: 45%;
+        margin-top: -70px;
+	position: absolute;
+}
+
+/*Exclusive Films*/
+
+.exclusive-films-intro {
+        background-color: #202020;;
+        padding: 70px 0px;
+}
+
+.garage-girls {
+        background-color: #202020;
+        padding: 70px 0px;
+}
+
+.garage-block {
+        position: absolute;
+        margin-left: 5%;
+        margin-right: 5%;
+}
+
+/*<!-- Tailored multi-platform partnerships -->*/
+
+.tailored {
+        background-color: #fffffff;
+        padding: 70px 0px;
+}
+
+
+.social-media-surges {
+        background-color: #202020;
+        padding: 70px 0px;
+}
+
+.social-video-block {
+        margin-top: -20%;
+        margin-left: 15%;
+        margin-right: 5%;
+        width: 80%;
+}
+
+
+
+/*SeamlessAnimated*/
+
+.virtual-reality {
+        background-color: black;
+        padding: 70px 0px;
+}
+
+.virtual-video-block {
+        margin-left: 1%;
+        margin-right: 1%;
+        width:98%;
+}
+
+.goggles {
+        margin-top: -300px;
+        z-index: 1;
+}
+
+
+/*Thank you*/
+
+.thank-you {
+ background-color: black;
+    background: url("/images/thank-you.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.end {
+        margin-top:100px;
+}
